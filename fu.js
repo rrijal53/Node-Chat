@@ -6,6 +6,7 @@ DEBUG = false;
 
 var fu = exports;
 
+
 var NOT_FOUND = "Not Found\n";
 
 function notFound(req, res) {
