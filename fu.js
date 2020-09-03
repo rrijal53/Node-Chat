@@ -7,7 +7,6 @@ DEBUG = false;
 var fu = exports;
 
 var NOT_FOUND = "Not Found\n";
-
 function notFound(req, res) {
   res.writeHead(404, { "Content-Type": "text/plain"
                      , "Content-Length": NOT_FOUND.length
